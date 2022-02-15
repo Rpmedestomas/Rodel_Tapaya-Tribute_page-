@@ -1,0 +1,50 @@
+.gallery{
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+    .gallery_row{
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .image_landscape{
+        width: 30vw;
+        height: auto;
+        border-radius: 1vw;
+    }
+
+    .image_landscape:hover {
+        opacity: 0.7;
+    }
+
+    .image_portrait{
+        height: 60vh;
+        width: auto;
+        border-radius: 1vw;
+    }
+
+    .image_portrait:hover {
+        opacity: 0.7;
+    }
+
+    .image_special{
+        width: 50vw;
+        height: auto;
+        border-radius: 1vw;
+    }
+
+    .image_special:hover {
+        opacity: 0.7;
+    }
+
+    p{
+        margin-top: 0;
+        font-size: 1.2vh;
+        font-style: italic;
+    }
+}

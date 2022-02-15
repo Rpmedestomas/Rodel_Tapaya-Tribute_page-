@@ -1,0 +1,20 @@
+#information_content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 80vw;
+    padding-left: 10vw;
+    margin-bottom: 5vh;
+
+    img{
+        width: 40vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    ul{
+        list-style-type: none;
+        font-size: 1vw;
+        width: 30vw;
+    }
+}
